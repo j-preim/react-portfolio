@@ -9,3 +9,10 @@
 header {
   background-color: black;
 }
+
+img {
+  width: 25%;
+  max-width: 250px;
+  margin-right: 20px;
+  height: fit-content
+}

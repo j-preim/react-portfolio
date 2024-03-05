@@ -5,7 +5,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx'
 import { AboutMe, Portfolio, Contact, Resume } from "./pages/index.js";
 
-import './index.css'
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
