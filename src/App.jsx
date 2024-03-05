@@ -1,31 +1,27 @@
-import { useState } from "react";
+// Bringing in the required import from 'react-router-dom'
+import { Outlet } from 'react-router-dom';
 import Header from "./components/Header";
 import Navigation from "./components/Navigation";
-import Project from "./components/Project";
 import Footer from "./components/Footer";
 
 import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-function App() {
-
+export default function App() {
+  // The Outlet component will conditionally swap between the different pages according to the URL
   return (
-    <>
-      <div className="container-fluid">
-        <div className="row mb-3 border">
-            <Header />
+      <div className="container">
+        <header className="row mb-3 border">
+          <Header />
           <Navigation />
-        </div>
+        </header>
 
-        <div className="row mb-3 border">
-          <Project />
-        </div>
+        <main>
+          <Outlet />
+        </main>
 
-        <div className="row border">
+        <footer className="row mt-3 border">
           <Footer />
-        </div>
+        </footer>
       </div>
-    </>
   );
 }
-
-export default App;

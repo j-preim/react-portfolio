@@ -1,4 +1,4 @@
-function Header() {
+export default function Header() {
 
   return (
     <div className="col-auto px-3 pt-1 border">
@@ -6,5 +6,3 @@ function Header() {
     </div>
   );
 }
-
-export default Header;

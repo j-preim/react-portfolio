@@ -1,0 +1,8 @@
+[
+  {"title":"PWA Text Editor", "deploymentMethod": "gitHub", "gitHubName": "pwa-text-editor", "deployedName": "pwa-text-editor"},
+  {"title":"Note Taker", "deploymentMethod": "heroku", "gitHubName": "note-taker", "deployedName": "fast-caverns-39904-35530f94c000"},
+  {"title":"Weather Dashboard", "deploymentMethod": "gitHub", "gitHubName": "weather-dashboard", "deployedName": "weather-dashboard"},
+  {"title":"Bartending School", "deploymentMethod": "gitHub", "gitHubName": "bartending-school", "deployedName": "bartending-school", "githubUser": "KDeLaria"},
+  {"title":"Ticket Wizard!", "deploymentMethod": "heroku", "gitHubName": "ticket_wizard", "deployedName": "ticket-wizard-pete-b1e8f95fed38", "githubUser": "petemaynard"},
+  {"title":"Workday Scheduler", "deploymentMethod": "gitHub", "gitHubName": "work-day-scheduler", "deployedName": "work-day-scheduler"}
+]

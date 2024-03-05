@@ -1,3 +1,13 @@
-#root {
-  max-width: 1280px;
+:root {
+  --primary: #13293d;
+  --secondary: gold;
+  --header: white;
+  --light: rgb(189, 212, 234);
+  --splash: cadetblue;
+  background-color: var(--primary);
 }
+
+body {
+  background-color: rgb(233, 233, 233);
+}
+
