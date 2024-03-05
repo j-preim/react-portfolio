@@ -18,3 +18,18 @@ body {
   height: fit-content
 }
 
+#linkedIn {
+  color: rgb(0, 66, 171);
+}
+
+#gitHub {
+  color: rgb(0, 0, 0);
+}
+
+#salesforce {
+  color: rgb(0, 124, 195);
+}
+
+.icon:hover {
+  color: rgb(90, 187, 0);
+}
