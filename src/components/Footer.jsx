@@ -13,7 +13,7 @@ export default function Footer() {
         </a>
         <a href="https://github.com/j-preim/" target="_blank">
           <i
-            className="me-3 fa-brands fa-github fa-3x fa-fw icon"
+            className="me-3 fa-brands fa-github fa-3x fa-fw test"
             id="gitHub"
           />
         </a>

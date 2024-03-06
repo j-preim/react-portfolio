@@ -6,13 +6,56 @@
   --splash: cadetblue;
 }
 
-header {
-  background-color: black;
+.header {
+  background-color: rgb(233, 233, 233); 
 }
 
-img {
+.nav-link {
+  font-size: large;
+}
+
+.nav-link-active {
+  font-size: large;
+  font-weight: 600;
+  color: rgb(255, 0, 230);;
+  text-decoration-line: underline;
+  text-decoration: underline solid var(--splash) 40%;
+  text-underline-offset: 8px;
+}
+
+.nav-link:hover, .nav-link-active:hover {
+  color: rgb(255, 0, 230);
+  text-decoration-line: underline;
+  text-decoration: underline solid var(--splash) 40%;
+  text-underline-offset: 8px;
+}
+
+h4 {
+  text-decoration-line: underline;
+  text-decoration: underline solid var(--splash) 30%;
+  text-underline-offset: 8px;
+  margin-bottom: 2rem;
+}
+
+.img {
   width: 25%;
   max-width: 250px;
   margin-right: 20px;
   height: fit-content
+}
+
+#linkedIn {
+  color: rgb(0, 66, 171);
+}
+
+#gitHub {
+  color: rgb(0, 0, 0);
+}
+
+#salesforce {
+  color: rgb(0, 124, 195);
+}
+
+#linkedIn:hover, #gitHub:hover, #salesforce:hover {
+  color: rgb(255,0,230);
 }
