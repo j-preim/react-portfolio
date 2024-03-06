@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <div className="my-2 text-center">
+      <div className="my-2 mt-3 text-center">
         <a
           href="https://www.linkedin.com/in/joe-preimesberger-5962802b/"
           target="_blank"

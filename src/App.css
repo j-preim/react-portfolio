@@ -7,7 +7,7 @@
 }
 
 .header {
-  background-color: rgb(233, 233, 233); 
+  background-color: var(--primary); 
 }
 
 .nav-link {
@@ -58,4 +58,8 @@ h4 {
 
 #linkedIn:hover, #gitHub:hover, #salesforce:hover {
   color: rgb(255,0,230);
+}
+
+.card-link {
+  text-decoration: none;
 }
