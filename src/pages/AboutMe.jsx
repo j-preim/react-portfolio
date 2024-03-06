@@ -11,17 +11,10 @@ export default function AboutMe() {
         className="col me-3 img"
       />
       <p className="col">
-        This is who I am. This is who I am. This is who I am. This is who I am.
-        This is who I am. This is who I am. This is who I am. This is who I am.
-        This is who I am. This is who I am. This is who I am. This is who I am.
-        This is who I am. This is who I am. This is who I am. This is who I am.
-        This is who I am. This is who I am. This is who I am.
+        I'm an experienced Salesforce Developer and Administrator that decided to join a coding boot camp to sharpen my skills in other languages.
         <br />
         <br />
-        Coding is cool! Coding is cool! Coding is cool! Coding is cool! Coding
-        is cool! Coding is cool! Coding is cool! Coding is cool! Coding is cool!
-        Coding is cool! Coding is cool! Coding is cool! Coding is cool! Coding
-        is cool! Coding is cool! Coding is cool!
+        I'm open to career opportunities in Salesforce or web development.
       </p>
       </div>
     </>
