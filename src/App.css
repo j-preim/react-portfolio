@@ -4,27 +4,30 @@
   --header: white;
   --light: rgb(189, 212, 234);
   --splash: cadetblue;
+  background-color: var(--light);
 }
 
-.header {
-  background-color: var(--primary); 
+header {
+  background-color: var(--primary);
+  color: white;
 }
 
 .nav-link {
   font-size: large;
+  color: var(--light);
 }
 
 .nav-link-active {
   font-size: large;
   font-weight: 600;
-  color: rgb(255, 0, 230);;
+  color: var(--secondary);;
   text-decoration-line: underline;
   text-decoration: underline solid var(--splash) 40%;
   text-underline-offset: 8px;
 }
 
 .nav-link:hover, .nav-link-active:hover {
-  color: rgb(255, 0, 230);
+  color: var(--secondary);
   text-decoration-line: underline;
   text-decoration: underline solid var(--splash) 40%;
   text-underline-offset: 8px;

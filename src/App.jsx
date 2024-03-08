@@ -11,7 +11,7 @@ export default function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   return (
       <div className="container">
-        <header className="row mb-3 border-bottom">
+        <header className="row mb-3 border-bottom border-4">
           <Header />
           <Navigation />
         </header>
@@ -20,7 +20,7 @@ export default function App() {
           <Outlet />
         </main>
 
-        <footer className="row mt-3 border">
+        <footer className="row mt-3 border-top border-4">
           <Footer />
         </footer>
       </div>
