@@ -9,7 +9,7 @@ The purpose of this project was to create a portfolio using React to help distin
 
 The project repository can be found at the following GitHub Page: https://github.com/j-preim/react-portfolio
 
-The deployed application can be found deployed on Netlify here: https://rainbow-bubblegum-4538b0.netlify.app/portfolio
+The deployed application can be found deployed on Netlify here: https://rainbow-bubblegum-4538b0.netlify.app/
 
 ## Usage
 
